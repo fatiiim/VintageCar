@@ -4,44 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa738d2b-783a-4f9b-ac73-13e69a8471eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/anmeldung/Anmeldung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/anmeldung/Registrieren.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/benutzer/Benutzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/controller/EinlagererController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/controller/ErsatzteilanbieterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/controller/LagerhalterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/controller/StartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/einlagerer/Anfrage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/einlagerer/Einlagerer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/einlagerer/Fahrzeug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/enums/Marke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/enums/Rollen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/enums/Standort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/enums/Zustand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/ersatzteilanbieter/Ersatzteil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/ersatzteilanbieter/Ersatzteilanbieter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/lagerhalter/Dienst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/lagerhalter/Lager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/lagerhalter/Lagerhalter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/lagerhalter/Stellplatz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/lagerhalter/Termin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/lagerhalter/Zusatzservice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/vintagecarfx/einlagerer-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/vintagecarfx/ersatzteilanbieter-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/vintagecarfx/lagerhalter-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/vintagecarfx/start-view.fxml" afterDir="false" />
+    <list default="true" id="fa738d2b-783a-4f9b-ac73-13e69a8471eb" name="Changes" comment="first upload. Tamplate for the Team to start">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/controller/EinlagererController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/controller/EinlagererController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/controller/ErsatzteilanbieterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/controller/ErsatzteilanbieterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/controller/LagerhalterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/controller/LagerhalterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/controller/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/controller/StartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/ersatzteilanbieter/Ersatzteilanbieter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/ersatzteilanbieter/Ersatzteilanbieter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/vintagecarfx/ersatzteilanbieter-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/vintagecarfx/ersatzteilanbieter-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +23,7 @@
       <list>
         <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -60,11 +31,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;assignee&quot;: &quot;rawadmuhammed&quot;
+    }
+  ],
   &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
     &quot;assignee&quot;: &quot;rawadmuhammed&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="240ce9b8-9eef-4055-8263-688ac676dbe1" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/rawadmuhammed/VintageCar.git&quot;,
@@ -100,7 +78,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -168,12 +146,26 @@
       <updated>1719586158326</updated>
       <workItem from="1719586159438" duration="2852000" />
       <workItem from="1719590836898" duration="20338000" />
-      <workItem from="1719664270681" duration="532000" />
+      <workItem from="1719664270681" duration="2875000" />
+      <workItem from="1719745078635" duration="8457000" />
     </task>
+    <task id="LOCAL-00001" summary="first upload. Tamplate for the Team to start">
+      <option name="closed" value="true" />
+      <created>1719665126404</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719665126404</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first upload. Tamplate for the Team to start" />
+    <option name="LAST_COMMIT_MESSAGE" value="first upload. Tamplate for the Team to start" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

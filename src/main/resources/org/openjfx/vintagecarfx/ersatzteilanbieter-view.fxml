@@ -7,11 +7,20 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.geometry.Insets?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml">
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml" fx:controller="org.openjfx.vintagecarfx.controller.ErsatzteilanbieterController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello Ersatzteilanbieter!"/>
+    <TableView fx:id="ersatzteilTable">
+        <columns>
+            <TableColumn fx:id="ersatzteilIDColumn" text="Ersatzteil ID"/>
+            <TableColumn fx:id="ersatzteilNameColumn" text="Name"/>
+            <TableColumn fx:id="ersatzteilGewichtColumn" text="Gewicht"/>
+            <TableColumn fx:id="ersatzteilMaterialColumn" text="Material"/>
+            <TableColumn fx:id="ersatzteilGarantieColumn" text="Garantie"/>
+            <TableColumn fx:id="ersatzteilHerstellerColumn" text="Hersteller"/>
+            <TableColumn fx:id="ersatzteilZustandColumn" text="Zustand"/>
+        </columns>
+    </TableView>
 </VBox>

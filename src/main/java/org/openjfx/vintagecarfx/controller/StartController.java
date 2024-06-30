@@ -49,4 +49,5 @@ public class StartController {
         Scene scene = new Scene(fxmlLoader.load(), 800, 600);
         stage.setScene(scene);
     }
+
 }
