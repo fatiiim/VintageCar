@@ -9,6 +9,8 @@ import org.openjfx.vintagecarfx.ersatzteilanbieter.Ersatzteil;
 import org.openjfx.vintagecarfx.ersatzteilanbieter.Ersatzteilanbieter;
 import javafx.scene.control.cell.PropertyValueFactory;
 
+import java.util.List;
+
 public class ErsatzteilanbieterController {
     private final Ersatzteilanbieter ersatzteilanbieter;
     private final Stage stage;
@@ -37,13 +39,14 @@ public class ErsatzteilanbieterController {
 
         @FXML
         public void initialize() {
-            ersatzteilIDColumn.setCellValueFactory(new PropertyValueFactory<>("id"));
-            ersatzteilNameColumn.setCellValueFactory(new PropertyValueFactory<>("name"));
-            ersatzteilGewichtColumn.setCellValueFactory(new PropertyValueFactory<>("gewicht"));
-            ersatzteilMaterialColumn.setCellValueFactory(new PropertyValueFactory<>("material"));
-            ersatzteilGarantieColumn.setCellValueFactory(new PropertyValueFactory<>("garantie"));
-            ersatzteilHerstellerColumn.setCellValueFactory(new PropertyValueFactory<>("hersteller"));
-            ersatzteilZustandColumn.setCellValueFactory(new PropertyValueFactory<>("zustand"));
+            List<Ersatzteil> ersatzteile = ersatzteilanbieter.getErsatzteile(Marke.AUDI);
+            ersatzteilIDColumn.setCellValueFactory(new PropertyValueFactory<>("ersatzteil_ID"));
+            ersatzteilNameColumn.setCellValueFactory(new PropertyValueFactory<>("Name"));
+            ersatzteilGewichtColumn.setCellValueFactory(new PropertyValueFactory<>("Gewicht"));
+            ersatzteilMaterialColumn.setCellValueFactory(new PropertyValueFactory<>("Material"));
+            ersatzteilGarantieColumn.setCellValueFactory(new PropertyValueFactory<>("Garantie"));
+            ersatzteilHerstellerColumn.setCellValueFactory(new PropertyValueFactory<>("Hersteller"));
+            ersatzteilZustandColumn.setCellValueFactory(new PropertyValueFactory<>("Zustand"));
 
             ersatzteilTable.getItems().setAll(ersatzteilanbieter.getErsatzteile(Marke.AUDI));
         }
