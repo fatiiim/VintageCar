@@ -16,7 +16,7 @@ public class Lagerhalter extends Benutzer {
     private int kapazitaet;
 
     public Lagerhalter(String vorname, String nachname, String geschlecht, String mailadresse,
-                       String password, int handynummer, int plz, String stadt, String strasse, String hausnummer) {
+                       String password, String handynummer, int plz, String stadt, String strasse, String hausnummer) {
         super(vorname, nachname, geschlecht, mailadresse, password, handynummer, plz, stadt, strasse, hausnummer);
     }
 

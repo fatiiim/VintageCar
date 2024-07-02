@@ -6,16 +6,16 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/22">
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
   <tabs>
-    <Tab text="Fahrzeuge">
+    <Tab onSelectionChanged="#fahrzeugeAnzeigen" text="Fahrzeuge">
       <content>
         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                <children>
-                  <TableView layoutY="1.0" prefHeight="367.0" prefWidth="600.0">
+                  <TableView fx:id="fahrzeugTable" layoutY="1.0" prefHeight="367.0" prefWidth="600.0">
                     <columns>
-                      <TableColumn prefWidth="141.0" text="Name" />
-                      <TableColumn prefWidth="155.0" text="Status" />
+                      <TableColumn fx:id="fahrzeugName" prefWidth="141.0" text="Fahrzeug" />
+                      <TableColumn fx:id="fahrzeugStatus" prefWidth="155.0" text="Status" />
                     </columns>
                   </TableView>
                </children></AnchorPane>

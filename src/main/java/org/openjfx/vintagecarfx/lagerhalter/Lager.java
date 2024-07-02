@@ -31,6 +31,7 @@ public class Lager {
         this.kapazitaet_PKW = kapazitaet_PKW;
         this.kapazitaet_LKW = kapazitaet_LKW;
         setStellplaetze();
+        eingelagerteFahrzeuge = new ArrayList<>();
     }
 
     public void lagerKapazitaetenAnpassen(int kapazitaet_PKW, int kapazitaet_LKW){

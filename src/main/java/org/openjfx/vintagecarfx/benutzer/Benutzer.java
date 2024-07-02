@@ -7,14 +7,14 @@ public abstract class Benutzer {
     private String geschlecht;
     private String mailadresse;
     private String passwort;
-    private int handynummer;
+    private String handynummer;
     private int plz;
     private String stadt;
     private String strasse;
     private String hausnummer;
 
     public Benutzer(String vorname, String nachname, String geschlecht,
-                    String mailadresse, String passwort, int handynummer,
+                    String mailadresse, String passwort, String handynummer,
                     int plz, String stadt, String strasse, String hausnummer){
         this.vorname = vorname;
         this.nachname = nachname;
@@ -43,7 +43,7 @@ public abstract class Benutzer {
     public String getPasswort(){
         return passwort;
     }
-    public int getHandynummer(){
+    public String getHandynummer(){
         return handynummer;
     }
     public int getPlz(){
@@ -73,7 +73,7 @@ public abstract class Benutzer {
     public void setPasswort(String passwort){
         this.passwort = passwort;
     }
-    public void setHandynummer(int handynummer){
+    public void setHandynummer(String handynummer){
         this.handynummer = handynummer;
     }
     public void setPlz(int plz){

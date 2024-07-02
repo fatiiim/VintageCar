@@ -41,7 +41,9 @@ public class Fahrzeug {
     public boolean checkFahrbereit(){
         return fahrbereit;
     }
-
+    public String getStatus(){
+        return fahrbereit ? "Fahrbereit" : "Nicht Fahrbereit";
+    }
     //diese methode soll vielleicht woanders hin
     //public List<Termin> getVerfuegbareTermine(){}
     public void zusatzserviceBuchen(int zusatzservice_ID){
@@ -55,6 +57,9 @@ public class Fahrzeug {
     }
     public String getModell(){
         return modell;
+    }
+    public String getName(){
+        return marke + " " + modell;
     }
     public LocalDate getBaujahr(){
         return baujahr;

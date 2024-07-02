@@ -13,7 +13,7 @@ public class Ersatzteilanbieter extends Benutzer {
     private final List<Ersatzteil> ersatzteile;
 
     public Ersatzteilanbieter(String vorname, String nachname, String geschlecht, String mailadresse, String password,
-                              int handynummer, int plz, String stadt, String strasse, String hausnummer, String unternehmensname,
+                              String handynummer, int plz, String stadt, String strasse, String hausnummer, String unternehmensname,
                               List<Marke> spezialisierungen, String beschreibung, List<Ersatzteil> ersatzteile) {
         super(vorname, nachname, geschlecht, mailadresse, password, handynummer, plz, stadt, strasse, hausnummer);
         this.unternehmensname = unternehmensname;

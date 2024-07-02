@@ -5,14 +5,16 @@ import org.openjfx.vintagecarfx.lagerhalter.Termin;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Einlagerer extends Benutzer {
     List<Fahrzeug> eingelagerteFahrzeuge;
 
     public Einlagerer(String vorname, String nachname, String geschlecht, String mailadresse,
-                      String password, int handynummer, int plz, String stadt, String strasse, String hausnummer) {
+                      String password, String handynummer, int plz, String stadt, String strasse, String hausnummer) {
         super(vorname, nachname, geschlecht, mailadresse, password, handynummer, plz, stadt, strasse, hausnummer);
+        eingelagerteFahrzeuge = new ArrayList<>();
     }
 
     //public suchformularAnzeigen(){}

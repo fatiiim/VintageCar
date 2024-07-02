@@ -1,6 +1,7 @@
 package org.openjfx.vintagecarfx.anmeldung;
 
 import org.openjfx.vintagecarfx.benutzer.Benutzer;
+import org.openjfx.vintagecarfx.einlagerer.Einlagerer;
 import org.openjfx.vintagecarfx.enums.Rollen;
 import org.openjfx.vintagecarfx.lagerhalter.Lagerhalter;
 
@@ -16,7 +17,7 @@ public class Registrieren {
     }
     public void benutzerDaten(Rollen rolle, String vorname, String nachname,
                               String geschlecht, String mailadresse, String password,
-                              int handynummer, int plz, String stadt, String strasse, String hausnummer){
+                              String handynummer, int plz, String stadt, String strasse, String hausnummer){
         if(rolle == Rollen.LAGERHALTER){
             Lagerhalter lagerhalter = new Lagerhalter(vorname, nachname, geschlecht, mailadresse, password, handynummer, plz, stadt, strasse, hausnummer);
         }
