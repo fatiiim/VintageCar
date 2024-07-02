@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa738d2b-783a-4f9b-ac73-13e69a8471eb" name="Changes" comment="first upload. Tamplate for the Team to start">
+    <list default="true" id="fa738d2b-783a-4f9b-ac73-13e69a8471eb" name="Changes" comment="v 0.2&#10;Kleine bug fixes.&#10;Der Zugriff für javaFX auf die wichtigsten Klassen wurde in der Datei module-info.java hinzugefügt.">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/vintagecarfx/ersatzteil-details.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/vintagecarfx/ersatzteile-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/controller/ErsatzteilanbieterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/controller/ErsatzteilanbieterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/controller/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/controller/StartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/ersatzteilanbieter/Ersatzteil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/ersatzteilanbieter/Ersatzteil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/ersatzteilanbieter/Ersatzteilanbieter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/openjfx/vintagecarfx/ersatzteilanbieter/Ersatzteilanbieter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/vintagecarfx/einlagerer-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/vintagecarfx/einlagerer-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/vintagecarfx/ersatzteilanbieter-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/vintagecarfx/ersatzteilanbieter-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/openjfx/vintagecarfx/start-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/openjfx/vintagecarfx/start-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="FxmlFile" />
         <option value="Interface" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -75,7 +81,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -144,7 +150,8 @@
       <workItem from="1719586159438" duration="2852000" />
       <workItem from="1719590836898" duration="20338000" />
       <workItem from="1719664270681" duration="2875000" />
-      <workItem from="1719745078635" duration="18976000" />
+      <workItem from="1719745078635" duration="32531000" />
+      <workItem from="1719940738700" duration="3667000" />
     </task>
     <task id="LOCAL-00001" summary="first upload. Tamplate for the Team to start">
       <option name="closed" value="true" />
@@ -162,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719754775790</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v 0.2&#10;Kleine bug fixes.&#10;Der Zugriff für javaFX auf die wichtigsten Klassen wurde in der Datei module-info.java hinzugefügt.">
+      <option name="closed" value="true" />
+      <created>1719847939966</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719847939966</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +185,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first upload. Tamplate for the Team to start" />
-    <option name="LAST_COMMIT_MESSAGE" value="first upload. Tamplate for the Team to start" />
+    <MESSAGE value="v 0.2&#10;Kleine bug fixes.&#10;Der Zugriff für javaFX auf die wichtigsten Klassen wurde in der Datei module-info.java hinzugefügt." />
+    <option name="LAST_COMMIT_MESSAGE" value="v 0.2&#10;Kleine bug fixes.&#10;Der Zugriff für javaFX auf die wichtigsten Klassen wurde in der Datei module-info.java hinzugefügt." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

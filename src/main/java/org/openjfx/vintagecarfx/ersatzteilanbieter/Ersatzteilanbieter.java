@@ -42,14 +42,6 @@ public class Ersatzteilanbieter extends Benutzer {
         }
         return 0;
     }
-    public Marke getErsatzteilkompatibilitaet(int ersatzteil_ID){
-        for(Ersatzteil ersatzteil : ersatzteile){
-            if(ersatzteil.getErsatzteil_ID() == ersatzteil_ID){
-                return ersatzteil.getKompatibilitaet();
-            }
-        }
-        return null;
-    }
     public float getErsatzteilGewicht(int ersatzteil_ID){
         for(Ersatzteil ersatzteil : ersatzteile){
             if(ersatzteil.getErsatzteil_ID() == ersatzteil_ID){
@@ -66,15 +58,15 @@ public class Ersatzteilanbieter extends Benutzer {
          }
             return null;
     }
-    public int getErsatzteilGarantie(int ersatzteil_ID){
+    public String getErsatzteilGarantie(int ersatzteil_ID){
         for(Ersatzteil ersatzteil : ersatzteile){
             if(ersatzteil.getErsatzteil_ID() == ersatzteil_ID){
                 return ersatzteil.getGarantie();
             }
         }
-        return 0;
+        return null;
     }
-    public String getErsatzteilHersteller(int ersatzteil_ID) {
+    public Marke getErsatzteilHersteller(int ersatzteil_ID) {
         for (Ersatzteil ersatzteil : ersatzteile) {
             if (ersatzteil.getErsatzteil_ID() == ersatzteil_ID) {
                 return ersatzteil.getHersteller();

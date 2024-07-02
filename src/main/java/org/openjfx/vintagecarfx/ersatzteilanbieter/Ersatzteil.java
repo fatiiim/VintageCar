@@ -8,18 +8,18 @@ public class Ersatzteil {
     private int anzahl;
     private final String name;
     private float preis;
-    private final Marke kompatibilitaet;
     private final float gewicht;
     private final String material;
     private final Zustand zustand;
-    private final int garantiedauer;
-    private String hersteller;
+    private final String garantiedauer;
+    private final Marke hersteller;
 
-    public Ersatzteil(String name, float preis, Zustand zustand, Marke kompatibilitaet, float gewicht, String material, int garantiedauer) {
+    public Ersatzteil(String name, float preis, Zustand zustand, Marke hersteller,
+                      float gewicht, String material, String garantiedauer) {
         this.name = name;
         this.preis = preis;
         this.zustand = zustand;
-        this.kompatibilitaet = kompatibilitaet;
+        this.hersteller = hersteller;
         this.gewicht = gewicht;
         this.material = material;
         this.garantiedauer = garantiedauer;
@@ -37,19 +37,16 @@ public class Ersatzteil {
         return preis;
     }
     public void setPreis(float preis) {this.preis = preis;}
-    public Marke getKompatibilitaet() {
-        return kompatibilitaet;
-    }
     public float getGewicht() {
         return gewicht;
     }
     public String getMaterial() {
         return material;
     }
-    public int getGarantie() {
+    public String getGarantie() {
         return garantiedauer;
     }
-    public String getHersteller() {
+    public Marke getHersteller() {
         return hersteller;
     }
     public Zustand getZustand() {

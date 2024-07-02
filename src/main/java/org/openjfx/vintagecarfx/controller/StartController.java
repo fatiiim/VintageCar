@@ -41,7 +41,7 @@ public class StartController {
                 "männlich", "musterman@hotmail.de", "12345", 156000,
                 35234, "Berlin", "hauptstraße", "1", "beste Firma", Arrays.asList(Marke.AUDI, Marke.BMW),
                 "noch keine Beschreibung", List.of(new Ersatzteil(
-                        "Reifen", 100, Zustand.AKZEPTABEL, Marke.AUDI, 10, "Gummi", 2)));
+                        "Reifen", 100, Zustand.AKZEPTABEL, Marke.AUDI, 10, "Gummi", "2 Jahre")));
 
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/org/openjfx/vintagecarfx/ersatzteilanbieter-view.fxml"));
         ErsatzteilanbieterController controller = new ErsatzteilanbieterController(ersatzteilanbieter, stage);

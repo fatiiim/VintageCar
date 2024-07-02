@@ -16,3 +16,4 @@
     <Button text="Lagerhalter" onAction="#showLagerhalterView"/>
     <Button text="Ersatzteilanbieter" onAction="#showErsatzteilanbieterView"/>
 </VBox>
+
